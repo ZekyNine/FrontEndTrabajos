@@ -1,0 +1,58 @@
+body {
+  background-image:url("../imagenes/fondo.jpg");
+  background-color:white;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  font-size: xx-large;
+  text-align: center;
+  text-decoration: underline;
+  color:#FBC02D;
+  background-image:url("../imagenes/banderaarg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h2 {
+  font-size: x-large;
+  text-align: center;
+  text-decoration: underline;
+  color:000000;
+  background-image:url("../imagenes/banderamex.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+h3 {
+  font-size: large;
+  color:#FFFFFF;
+  font-family: sans-serif;
+  text-decoration: underline;
+  text-decoration-color:#FFFFFF
+
+
+}
+p {
+  text-align: center;
+  color:#FFFFFF;
+  font-size:large;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+.imagen {
+  width: 400px;
+  height: 224px;
+  display: block;
+  margin: 0px auto;
+}
+
+li {
+  font-size: medium;
+  color:#FFFFFF;
+}
+
+.video_ubicacion {
+  text-align: center;
+}
