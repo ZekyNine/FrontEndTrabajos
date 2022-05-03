@@ -1,2 +1,2 @@
-# FrontEndClase3
-Trabajo practico 2 FrontEnd EDLP
+# FrontEnd
+Trabajo practicos
