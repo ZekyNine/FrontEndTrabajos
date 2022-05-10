@@ -1,6 +1,5 @@
 body {
-  background-image:url("../imagenes/fondo.jpg");
-  background-color:white;
+  background-color:#5499C7;
   background-repeat:no-repeat;
   background-position: center;
   background-size: cover;
@@ -8,35 +7,40 @@ body {
 
 h1 {
   font-size: xx-large;
+  font-family: fantasy;
   text-align: center;
-  text-decoration: underline;
-  color:#FBC02D;
-  background-image:url("../imagenes/banderaarg.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
+  text-decoration: overline;
+  text-decoration-style: double;
+  text-decoration-color:  #F1C40F;
+  background: url("../imagenes/sintitulo.png") no-repeat center;
+  color: #C0392B;
+  padding: 8%;
 }
 
 h2 {
   font-size: x-large;
   text-align: center;
-  text-decoration: underline;
-  color:000000;
-  background-image:url("../imagenes/banderamex.png");
-  background-repeat: no-repeat;
-  background-position: center;
+  font-family: sans-serif;
+  text-decoration: overline double #F1C40F;
+  color:#D35400;
+  background: silver no-repeat center;
+  border: 3px #DC7633 solid;
+  width: 200px;
+  height: 30px;
+  margin: 0px auto;
 }
+
+
 h3 {
   font-size: large;
-  color:#FFFFFF;
+  color:#D35400;
   font-family: sans-serif;
   text-decoration: underline;
-  text-decoration-color:#FFFFFF
-
-
 }
+
 p {
   text-align: center;
-  color:#FFFFFF;
+  color:black;
   font-size:large;
   font-weight: bolder;
   font-family: sans-serif;
@@ -50,9 +54,88 @@ p {
 
 li {
   font-size: medium;
-  color:#FFFFFF;
+  color:black;
 }
 
 .video_ubicacion {
   text-align: center;
+}
+
+header {
+  background-image: url("../imagenes/image.jpg");
+  border-top: 8px #FB8C00 ridge;
+  border-left: 8px #FB8C00 ridge;
+  border-right: 8px #FB8C00 ridge;
+}
+
+nav {
+  background-color: silver;
+  padding: 3px;
+  box-sizing: border-box;
+  border: 8px #FB8C00 ridge;
+}
+
+nav ul {
+
+}
+
+nav ul li {
+  margin-left: 1%;
+  display: inline;
+  border-left: 3px #FB8C00 ridge;
+  border-right: 3px #FB8C00 ridge;
+  font-family: cursive;
+}
+
+section {
+  width: 75%;
+  height: 1500px;
+  float:left;
+  padding: 1%;
+  box-sizing: border-box;
+  background-color: #F6DDCC;
+  overflow: auto;
+  border-right: 8px #FB8C00 ridge;
+  border-left: 8px #FB8C00 ridge;
+  border-bottom: 8px #FB8C00 ridge;
+}
+
+aside {
+  width: 25%;
+  height: 1500px;
+  float: left;
+  padding: 1%;
+  box-sizing: border-box;
+  background-color: #EDBB99;
+  overflow: auto;
+  border-right: 8px #FB8C00 ridge;
+  border-bottom: 8px #FB8C00 ridge;
+}
+
+footer {
+  clear: both;
+  background-color: #85929E;
+  box-sizing: border-box;
+  padding: 1%;
+}
+
+iframe {
+  width: 90%;
+  height: 95%;
+}
+
+a {
+  margin: 0.5%;
+}
+.red {
+   width: 2%;
+   height: 2%;
+}
+
+.icon-wsp {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  right: 40px;
+  bottom: 40px;
 }
