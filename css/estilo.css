@@ -124,12 +124,10 @@ iframe {
   height: 95%;
 }
 
-a {
-  margin: 0.7%;
-}
 .red {
    width: 3%;
    height: 3%;
+   margin: 0.7%;
 }
 
 .icon-wsp {
