@@ -1,26 +1,19 @@
 body {
-  background-color:#5499C7;
-  background-repeat:no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-color: #5499C7;
 }
 
 h1 {
-  font-size: xx-large;
-  font-family: fantasy;
+  font: xx-large fantasy;
   text-align: center;
-  text-decoration: overline;
-  text-decoration-style: double;
-  text-decoration-color:  #F1C40F;
+  text-decoration: overline double #F1C40F;
   background: url("../imagenes/sintitulo.png") no-repeat center;
   color: #C0392B;
   padding: 8%;
 }
 
-h2 {
-  font-size: x-large;
+.titulo {
+  font: x-large fantasy;
   text-align: center;
-  font-family: sans-serif;
   text-decoration: overline double #F1C40F;
   color:#D35400;
   background: silver no-repeat center;
@@ -29,27 +22,53 @@ h2 {
   height: 30px;
   margin: 0px auto;
 }
-
-
-h3 {
-  font-size: large;
+.titulo:hover {
+  background-color: green;
+  color:white;
+  border: 3px red solid;
+}
+/* Titulo de contacto.html */
+.titulo-contacto {
+  font: x-large fantasy;
+  text-align: center;
+  text-decoration: overline double #F1C40F;
   color:#D35400;
-  font-family: sans-serif;
+  background: silver no-repeat center;
+  border: 3px #DC7633 solid;
+  width: 290px;
+  height: 30px;
+  margin: 0px auto;
+}
+
+.titulo3 {
+  font: large sans-serif;
+  color:#D35400;
   text-decoration: underline;
+}
+.titulo3:hover {
+  color: black;
+  text-decoration: underline double #42A5F5;
 }
 
 p {
   text-align: center;
   color:black;
-  font-size:large;
+  font:large sans-serif;
   font-weight: bolder;
-  font-family: sans-serif;
 }
+
 .imagen {
   width: 400px;
   height: 224px;
-  display: block;
+  background: url("../imagenes/pozole.jpg") no-repeat;
+  background-size: cover;
   margin: 0px auto;
+}
+
+.imagen:hover {
+  background-image: url("../imagenes/2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 li {
@@ -75,10 +94,6 @@ nav {
   border: 8px #FB8C00 ridge;
 }
 
-nav ul {
-
-}
-
 nav ul li {
   margin-left: 1%;
   display: inline;
@@ -87,9 +102,12 @@ nav ul li {
   font-family: cursive;
 }
 
+.nav:hover {
+  background-color: #F39C12;
+}
+
 section {
   width: 75%;
-  height: 1500px;
   float:left;
   padding: 1%;
   box-sizing: border-box;
@@ -102,7 +120,6 @@ section {
 
 aside {
   width: 25%;
-  height: 1500px;
   float: left;
   padding: 1%;
   box-sizing: border-box;
@@ -118,6 +135,15 @@ footer {
   box-sizing: border-box;
   padding: 1%;
 }
+.facebook:hover {
+  background-color: #0033FF;
+}
+.twitter:hover {
+  background-color: #2196F3;
+}
+.instagram:hover {
+  background-color: #F4511E ;
+}
 
 iframe {
   width: 90%;
@@ -125,9 +151,9 @@ iframe {
 }
 
 .red {
-   width: 3%;
-   height: 3%;
-   margin: 0.7%;
+  width: 3%;
+  height: 3%;
+  margin: 0.7%;
 }
 
 .icon-wsp {
@@ -136,4 +162,33 @@ iframe {
   height: 50px;
   right: 40px;
   bottom: 40px;
+}
+
+
+/* Para contacto.html */
+label {
+  display: block;
+  font:large fantasy;
+  text-align: center;
+  color:#D35400;
+  text-decoration: overline double #F1C40F;
+}
+
+input {
+  display: block;
+  margin: 0px auto;
+  border: 1px black solid;
+}
+
+form {
+  background: silver;
+  width: 300px;
+  margin: 0px auto;
+  padding: 5%;
+  border: 5px #DC7633 ridge;
+}
+.imagenContacto {
+  display: block;
+  margin: 0px auto;
+  width: 83%;
 }
